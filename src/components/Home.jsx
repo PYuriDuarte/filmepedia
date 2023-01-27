@@ -10,9 +10,9 @@ const Home=()=>{
 
   const getTopRateMovies = async (url)=>{
     const res = await fetch(url);
-    const data = await res.json();
-
+    const data = await res.json();    
     setTopMovies(data.results);
+    console.log(topMovies);
   };
 
   useEffect(()=>{
