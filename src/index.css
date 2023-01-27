@@ -10,11 +10,11 @@ body{
 }
 a{
   text-decoration: none;
-  color: #f7d354;
+  color: #f00;
   transition: 0.5s;
 }
 a:hover{
-  color: #b8930c;
+  color: #fff;
 }
 ::-webkit-scrollbar{
   width: .5rem;
